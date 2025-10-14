@@ -11,7 +11,7 @@ from openai import OpenAI
 import plotly.graph_objects as go
 
 # --- Inizializza OpenAI ---
-
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # --- File persistenza ---
 REPORTS_FILE = "generated_reports.json"
