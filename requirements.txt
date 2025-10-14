@@ -1,4 +1,6 @@
-openai
 streamlit
 pandas
-python-dotenv
+openpyxl
+fpdf
+plotly
+openai
