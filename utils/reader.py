@@ -13,4 +13,5 @@ def load_data(org_name):
         else:
             st.error(f"File not found: {path}")
             data[f.split(".")[0]] = pd.DataFrame()
-    return data["macro"], data["meso"], data["micro"], data["scores"]
+    return data["macro"], data["meso"], data["micro"], data["Scores"]
+
